@@ -2,7 +2,7 @@ package droidninja.filepicker.models;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-import androidx.annotation.DrawableRes;
+import android.support.annotation.DrawableRes;
 import droidninja.filepicker.R;
 
 /**

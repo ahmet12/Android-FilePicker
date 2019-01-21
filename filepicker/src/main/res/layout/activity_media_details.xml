@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     >
 
-  <com.google.android.material.appbar.AppBarLayout
+  <android.support.design.widget.AppBarLayout
       android:id="@+id/appbar_layout"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
@@ -14,7 +14,7 @@
       app:layout_scrollFlags="scroll|enterAlways"
       >
 
-    <androidx.appcompat.widget.Toolbar
+    <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
@@ -23,10 +23,10 @@
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
         />
 
-  </com.google.android.material.appbar.AppBarLayout>
+  </android.support.design.widget.AppBarLayout>
 
 
-  <androidx.recyclerview.widget.RecyclerView
+  <android.support.v7.widget.RecyclerView
       android:id="@+id/recyclerview"
       android:layout_width="fill_parent"
       android:layout_height="fill_parent"
